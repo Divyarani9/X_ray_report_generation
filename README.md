@@ -1,5 +1,5 @@
 # Automatic Report Generation From Chest X-Rays
-MTech Project thesis on Automatic Report Generation from chest X-Rays
+MTech Project thesis - Phase - I
 
 ## Business Problem
 Clinical imaging captures enormous amounts of information but most radio-logic data are reported in qualitative and subjective terms. X-Rays are a form of Electromagnetic Radiation that is used for medical imaging. Analysis of X-ray reports is a very important task of radiologists and pathologists to recommend the correct diagnosis to the patients. In this project, we are tackling the image captioning problem for a data set containing Chest X-ray images with the help of the state of the art deep learning architecture and optimizing parameters of the architecture.
