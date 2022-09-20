@@ -45,8 +45,6 @@ Initially I will be doing the EDA and Preproccesing of the data with image as in
 
 - limiting the data point to 2 images per data point, if we have 5 images, its 4+1 (all image + last image) so make it as 4 data points, I converted multiple images into two images using their projection. The projection dataset has been taken from kaggle.
 
-- Dataset link : https://www.kaggle.com/raddar/chest-xrays-indiana-university
-
 - I have used simple Encoder-Decoder architacture for basic modelling.
 
 - Then extract the features from Images and did text tokenization and pass these tensors to model for training.
@@ -54,8 +52,6 @@ Initially I will be doing the EDA and Preproccesing of the data with image as in
 - This is basic model, we used LSTM model with pretrained-CheXNet model and I have tuned the model accordingly.
 
 - I started with 0.001 as learning rate and gradually decrease it by ReduceLROnPlateau callback.
-
-- CheXNet competition link : https://stanfordmlgroup.github.io/projects/chexnet/
 
 - Publically Available weight : https://www.kaggle.com/theewok/chexnet-keras-weights
 
