@@ -53,8 +53,6 @@ Initially I will be doing the EDA and Preproccesing of the data with image as in
 
 - I started with 0.001 as learning rate and gradually decrease it by ReduceLROnPlateau callback.
 
-- Publically Available weight : https://www.kaggle.com/theewok/chexnet-keras-weights
-
 - Then I add dropout to learn more robust features in both encoder and decoder layers.
 
 - I have also experimented with various batch sizes and observes lower batch size helps to achieve better test accuracy.
